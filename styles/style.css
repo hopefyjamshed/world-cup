@@ -1,0 +1,159 @@
+/*----------------------------------- body start */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-areas:
+        'header header header header'
+        'menu main main main'
+        'menu main main main'
+        'menu main main main'
+        'footer footer footer footer';
+}
+
+/*--------------body end------------------- */
+
+/*-------------------------------------------------------------------- body sections part start */
+
+
+/*---------------------------------- 
+header section start----------------------------------------- */
+.header {
+    grid-area: header;
+}
+
+.header-section {
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    height: 646px;
+    width: 1321px;
+    margin-left: 140px;
+    margin-right: 139px;
+    margin-top: 50px;
+}
+
+.one {
+    width: 531px;
+    height: 424px;
+    margin-top: 200px;
+}
+
+.one h1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.one p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 20px;
+}
+
+.header-button {
+    margin-top: 30px;
+}
+
+.header-button a {
+    text-decoration: none;
+    background: #DD0000;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 16px 25px;
+    align-items: center;
+}
+
+.two {
+    margin-left: 25px;
+}
+
+.two img {
+    width: 581px;
+    height: 613px;
+    margin-right: ;
+    margin-top: 33px;
+}
+
+/*--------------------------------------
+header section end---------------------------------------------*/
+
+
+/*------------------------------------
+ menu section stars---------------------------------------------- */
+
+.menu {
+    grid-area: menu;
+    margin-top: 130px;
+}
+
+.menu-section {
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-left: 140px;
+}
+
+.menu-button-div {
+    width: 252px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-block-end: 0px;
+
+}
+
+.menu-link a {
+    text-decoration: none;
+    border: 0px solid;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.menu-link a:hover {
+    background-color: #DD0000;
+    color: white;
+}
+
+.menu-link a:visit {
+    background-color: #DD0000;
+    color: white;
+}
+
+#menu-first {
+    padding: 17px 36.62px;
+    width: 252px;
+}
+
+#menu-second {
+    padding: 17px 78.81px;
+}
+
+#menu-third {
+    padding: 17px 97.73px;
+}
+
+/* -----------------------------------
+menu section end------------------------------------- */
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
