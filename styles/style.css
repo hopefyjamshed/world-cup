@@ -90,7 +90,7 @@ header section end---------------------------------------------*/
 
 .menu {
     grid-area: menu;
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 .menu-section {
@@ -150,9 +150,67 @@ header section end---------------------------------------------*/
 /* -----------------------------------
 menu section end------------------------------------- */
 
+
+/* --------------------------------
+main section start------------------------------------ */
+
 .main {
     grid-area: main;
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 140px;
 }
+
+.main-blogs {
+    width: 312px;
+    height: 362px;
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+.blog {
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+.img-blog img {
+    width: 312px;
+    height: 175px;
+}
+
+
+
+.blog #blog-link {
+    text-decoration: none;
+    border: 1px solid #161616;
+    font-size: 16px;
+    font-weight: 500;
+    color: #161616;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 4px 17px;
+}
+
+.blog .transfer {
+    color: #161616;
+    font-style: 18px;
+    font-weight: 600;
+}
+
+.blog .count-para {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.blog .count {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*------------------------------------------------
+ main section end-------------------------------------- */
 
 .footer {
     grid-area: footer;
