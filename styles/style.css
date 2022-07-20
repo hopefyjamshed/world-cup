@@ -588,4 +588,265 @@ responsive main section start-------------------------------- */
         color: #B9B9B9;
         margin-right: 5px;
     }
+
+    /*--------------------------
+     resoinsive footer section end---------------------------- */
+}
+
+/* ----------------------------------
+responsive tablet device end -----------------------------------*/
+
+
+
+
+/*------------------------------------
+ responsive smaller device---------------------------------- */
+
+@media only screen and (max-width:576px) {
+    /* body */
+
+    body {
+        width: 574px;
+
+        font-family: 'Poppins', sans-serif;
+        display: grid;
+        grid-template-areas:
+            'header header header header'
+            'menu menu menu menu'
+            'main main main main'
+            'main main main main'
+            'footer footer footer footer';
+    }
+
+
+    /*----------------------------------------
+    header section start ---------------------------------*/
+
+    .header-section {
+        background-color: #161616;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 30px;
+        width: 534px;
+        height: 598px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+
+    .one {
+        width: 316px;
+        height: 276px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+    .one h1 {
+        font-weight: 700;
+        font-size: 40px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    }
+
+    .one p {
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .header-button {
+        margin-top: 30px;
+        margin-left: 100px;
+
+    }
+
+    .header-button a {
+        text-decoration: none;
+        background: #DD0000;
+        width: 187px;
+        height: 56px;
+        border-radius: 5px;
+        color: #FFFFFF;
+        padding: 12px;
+        align-items: center;
+    }
+
+    .two {
+        margin-left: 25px;
+    }
+
+    .two img {
+        width: 323px;
+        height: 340px;
+        margin-top: 58px;
+        margin-right: 17px;
+        margin-bottom: 158px;
+        margin-left: 65px;
+        margin-block-end: 0px;
+    }
+
+
+    /*-------------------------------------
+     header section end ---------------------------------*/
+
+
+    /* -------------------------------------
+     menu section start ---------------------------------*/
+    .menu {
+        grid-area: menu;
+        margin-top: 20px;
+    }
+
+    .menu-section {
+        background-color: white;
+        width: 534px;
+        height: 90px;
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-right: 24px;
+        margin-block-start: 0px;
+    }
+
+    .menu-button-div {
+        width: 534px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-beetween;
+        align-items: center;
+        margin-left: 0px;
+        margin-block-end: 0px;
+
+    }
+
+    .menu-link a {
+        text-decoration: none;
+        border: 0px solid;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 5px;
+        background-color: white;
+        margin-left: 20px;
+        color: #050404;
+    }
+
+    .menu-link a:hover {
+        background-color: #DD0000;
+        color: white;
+    }
+
+    .menu-link a:active {
+        background-color: #DD0000;
+        color: white;
+    }
+
+    .menu-link #menu-third:visited {
+        background-color: #e25f5f;
+        color: white;
+    }
+
+    #menu-first {
+        padding: 17px 15.62px;
+        width: 200px;
+    }
+
+    #menu-second {
+        padding: 17px 50.81px;
+        width: 200px;
+    }
+
+    #menu-third {
+        padding: 17px 75.73px;
+        width: 200px;
+    }
+
+    /*------------------------------------------
+     menu section end -----------------------------------*/
+
+
+    /*-----------------------------------
+    main section start -----------------------------------*/
+
+    .main-sec {
+        grid-area: main;
+        width: 534px;
+        margin-top: 30px;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+
+    .main-sec {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 150px;
+        width: 535;
+    }
+
+    .main-blogs {
+        width: 534px;
+        height: 500.21px;
+        box-shadow: 0px 0px 0px .2px gray;
+        border-radius: 5px;
+
+
+    }
+
+
+
+    .img-blog img {
+        width: 534px;
+        height: 300.24px;
+    }
+
+    .trans {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+    .blog #blog-link {
+        text-decoration: none;
+        border: 1px solid #161616;
+        font-size: 16px;
+        font-weight: 500;
+        color: #161616;
+        border-radius: 5px;
+        background-color: transparent;
+        padding: 4px 17px;
+    }
+
+    .blog .transfer {
+        color: #161616;
+        font-style: 18px;
+        font-weight: 600;
+    }
+
+    .blog .count-para {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .blog .count {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .blog .count>p {
+        margin-left: 20px;
+    }
+
+
+
+
+
+
 }
