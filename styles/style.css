@@ -132,8 +132,13 @@ header section end---------------------------------------------*/
     color: white;
 }
 
-.menu-link a:visit {
+.menu-link a:active {
     background-color: #DD0000;
+    color: white;
+}
+
+.menu-link #menu-third:visited {
+    background-color: #e25f5f;
     color: white;
 }
 
