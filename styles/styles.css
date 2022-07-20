@@ -1,5 +1,92 @@
-/* ---------------------------------
-main section start -----------------------------------*/
+/*----------------------------------- body start */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-areas:
+        'header header header header'
+        'menu main main main'
+        'menu main main main'
+        'menu main main main'
+        'footer footer footer footer';
+}
+
+/*--------------body end------------------- */
+
+/*-------------------------------------------------------------------- body sections part start */
+
+
+/*---------------------------------- 
+header section start----------------------------------------- */
+.header {
+    grid-area: header;
+}
+
+.header-section {
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    height: 646px;
+    width: 1321px;
+    margin-left: 140px;
+    margin-right: 139px;
+    margin-top: 50px;
+}
+
+.one {
+    width: 531px;
+    height: 424px;
+    margin-top: 200px;
+}
+
+.one h1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.one p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 20px;
+}
+
+.header-button {
+    margin-top: 30px;
+}
+
+.header-button a {
+    text-decoration: none;
+    background: #DD0000;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 16px 25px;
+    align-items: center;
+}
+
+.two {
+    margin-left: 25px;
+}
+
+.two img {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+}
+
+/*--------------------------------------
+header section end---------------------------------------------*/
+
+
+/*------------------------------------
+ menu section stars---------------------------------------------- */
+
 .menu {
     grid-area: menu;
     margin-top: 130px;
@@ -37,6 +124,7 @@ main section start -----------------------------------*/
     font-weight: 500;
     border-radius: 5px;
     background-color: white;
+    color: #161616;
 }
 
 .menu-link a:hover {
@@ -44,12 +132,19 @@ main section start -----------------------------------*/
     color: white;
 }
 
-
-.menu-link #menu-first:visited {
-    background-color: #e25f5f;
+.menu-link a:active {
+    background-color: #DD0000;
     color: white;
 }
 
+.menu-link a:visited {
+    color: #161616;
+}
+
+.menu-link #menu-third:visited {
+    background-color: #e25f5f;
+    color: white;
+}
 
 #menu-first {
     padding: 17px 36.62px;
@@ -64,21 +159,30 @@ main section start -----------------------------------*/
     padding: 17px 97.73px;
 }
 
-/*--------------------------------------
- main section end--------------------------------------- */
+/* -----------------------------------
+menu section end------------------------------------- */
 
-/*------------------------------
- main section start ------------------------------------*/
+
+/* --------------------------------
+main section start------------------------------------ */
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid grid-row-gap: 20px;
+}
 
 .match-infos {
     width: 312;
+    display: flex;
+    flex-direction: column;
     height: 242;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 53px 30px;
+    margin-top: 30px;
+
+
 
 }
 
@@ -86,6 +190,8 @@ main section start -----------------------------------*/
     font-size: 16px;
     font-weight: 700;
     color: #161616;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .match-infos .img {
@@ -116,3 +222,60 @@ main section start -----------------------------------*/
     font-weight: 400;
     color: #4D4D4D;
 }
+
+/*------------------------------------------------
+ main section end-------------------------------------- */
+
+
+/*--------------------------------------------
+  footer section start----------------------------------------- */
+
+.footer {
+    grid-area: footer;
+    background-color: #161616;
+    color: #FFFFFF;
+    margin-top: 130px;
+
+}
+
+hr {
+    height: 1px;
+    background-color: #FFFFFF1A;
+    border: none;
+}
+
+.goal {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer-menus {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 135px;
+    margin-left: 135px;
+    margin-bottom: 130px;
+    margin-top: 50px;
+}
+
+.menus>a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B9B9B9;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    display: none;
+}
+
+
+
+/*-------------------------------------------------
+ footer section end -------------------------------------------------*/

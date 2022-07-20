@@ -640,10 +640,11 @@ responsive tablet device end -----------------------------------*/
         align-items: center;
         color: white;
         border-radius: 30px;
-        width: 534px;
-        height: 598px;
         margin-left: 50px;
         margin-right: 50px;
+        width: 534px;
+        height: 598px;
+
         margin-top: 50px;
     }
 
@@ -689,6 +690,7 @@ responsive tablet device end -----------------------------------*/
 
     .two {
         margin-left: 25px;
+
     }
 
     .two img {
