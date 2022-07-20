@@ -77,7 +77,6 @@ header section start----------------------------------------- */
 .two img {
     width: 581px;
     height: 613px;
-    margin-right: ;
     margin-top: 33px;
 }
 
@@ -125,6 +124,7 @@ header section end---------------------------------------------*/
     font-weight: 500;
     border-radius: 5px;
     background-color: white;
+    color: #161616;
 }
 
 .menu-link a:hover {
@@ -135,6 +135,10 @@ header section end---------------------------------------------*/
 .menu-link a:active {
     background-color: #DD0000;
     color: white;
+}
+
+.menu-link a:visited {
+    color: #161616;
 }
 
 .menu-link #menu-third:visited {
@@ -162,7 +166,7 @@ menu section end------------------------------------- */
 /* --------------------------------
 main section start------------------------------------ */
 
-.main {
+.main-sec {
     grid-area: main;
     margin-top: 130px;
     display: grid;
@@ -170,6 +174,7 @@ main section start------------------------------------ */
     grid-row-gap: 24px;
     grid-column-gap: 24px;
     margin-right: 140px;
+    margin-bottom: 40px;
 
 }
 
@@ -224,6 +229,19 @@ main section start------------------------------------ */
 
 .blog .count>p {
     margin-left: 20px;
+}
+
+.main .view-all {
+    text-decoration: none;
+    border: 0px solid;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #e25f5f;
+    color: white;
+    padding: 17px 30px;
+    margin-left: 300px;
+    display: none;
 }
 
 /*------------------------------------------------
@@ -401,6 +419,7 @@ responsive header section end -----------------------------*/
         border-radius: 5px;
         background-color: white;
         margin-left: 20px;
+        color: #050404;
     }
 
     .menu-link a:hover {
@@ -440,7 +459,7 @@ responsive menu section end */
 responsive main section start-------------------------------- */
 
 
-    .main {
+    .main-sec {
         grid-area: main;
         width: 735px;
         margin-top: 30px;
@@ -448,7 +467,7 @@ responsive main section start-------------------------------- */
         grid-column-gap: 20px;
     }
 
-    .main {
+    .main-sec {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-left: 50px;
@@ -507,6 +526,20 @@ responsive main section start-------------------------------- */
     .blog .count>p {
         margin-left: 20px;
     }
+
+    .main .view-all {
+        text-decoration: none;
+        border: 0px solid;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 5px;
+        background-color: #e25f5f;
+        color: white;
+        padding: 17px 30px;
+        margin-left: 300px;
+        display: inline-block;
+    }
+
 
     /*----------------------------
      responsive main section end -------------------------------*/
