@@ -146,6 +146,11 @@ header section end---------------------------------------------*/
     color: white;
 }
 
+.menu-link #menu-first:visited {
+    background-color: #e25f5f;
+    color: white;
+}
+
 #menu-first {
     padding: 17px 36.62px;
     width: 252px;
