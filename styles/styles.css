@@ -175,17 +175,17 @@ main section start------------------------------------ */
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+    margin-top: 130px;
 }
 
 .match-infos {
     width: 412;
     display: flex;
     flex-direction: column;
-    height: 242;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     padding: 53px 50px;
-    margin-top: 130px;
+
 
 
 
