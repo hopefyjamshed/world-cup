@@ -90,7 +90,7 @@ header section end---------------------------------------------*/
 
 .menu {
     grid-area: menu;
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 .menu-section {
@@ -100,6 +100,7 @@ header section end---------------------------------------------*/
     border-radius: 10px;
     padding-top: 50px;
     margin-left: 140px;
+    margin-right: 24px;
     position: sticky;
     top: 10px;
 }
@@ -164,26 +165,29 @@ main section start------------------------------------ */
     grid-row-gap: 24px;
     grid-column-gap: 24px;
     margin-right: 140px;
+
 }
 
 .main-blogs {
     width: 312px;
     height: 362px;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 5px;
 
 
 }
 
-.blog {
-    padding-top: 20px;
-    padding-left: 20px;
 
-}
 
 .img-blog img {
     width: 312px;
     height: 175px;
 }
 
+.trans {
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
 
 .blog #blog-link {
@@ -229,6 +233,7 @@ main section start------------------------------------ */
     background-color: #161616;
     color: #FFFFFF;
     margin-top: 130px;
+
 }
 
 hr {
