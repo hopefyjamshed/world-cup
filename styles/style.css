@@ -536,7 +536,7 @@ responsive main section start-------------------------------- */
         background-color: #e25f5f;
         color: white;
         padding: 17px 30px;
-        margin-left: 300px;
+        margin-left: 350px;
         display: inline-block;
     }
 
@@ -551,6 +551,7 @@ responsive main section start-------------------------------- */
 
 
     .footer {
+        width: 734px;
         grid-area: footer;
         background-color: #161616;
         color: #FFFFFF;
@@ -574,16 +575,17 @@ responsive main section start-------------------------------- */
     .footer-menus {
         display: flex;
         justify-content: space-between;
-        margin-right: 135px;
-        margin-left: 135px;
+        margin-right: 100px;
+        margin-left: 100px;
         margin-bottom: 130px;
         margin-top: 50px;
     }
 
     .menus>a {
         text-decoration: none;
-        font-size: 16px;
+        font-size: 10px;
         font-weight: 500;
         color: #B9B9B9;
+        margin-right: 5px;
     }
 }
