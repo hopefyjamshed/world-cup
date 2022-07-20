@@ -1,0 +1,49 @@
+/*------------------------------
+ main section start ------------------------------------*/
+
+.match-infos {
+    width: 312;
+    height: 242;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 53px 30px;
+
+}
+
+.match-infos>h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #161616;
+}
+
+.match-infos .img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img .flags img {
+    width: 93.04px;
+    height: 54.42px;
+    margin-block-end: 6.99;
+}
+
+.detail {
+    text-align: center;
+}
+
+.match-infos .detail h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #161616;
+}
+
+.match-infos .detail p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
